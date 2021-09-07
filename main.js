@@ -28,7 +28,7 @@ if(initial > 0 && current > 0 && quantity > 0){
             var diff = (initial- current);
             var loss = diff * quantity;;
             var lossPercentage = (diff / initial) * 100;
-            changeColor('green');
+            changeColor('red');
             showMessage.innerText = `Hey! the loss is Rs.${loss.toFixed(2)} and the loss percentage is ${lossPercentage.toFixed(2)} % ☹️ ` ;
             
         } 
