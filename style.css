@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+
+:root {
+    --primary-color:#111827;
+    --secondary-color:#BFDBFE; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Besley', serif;
+}
+
+h1{
+    margin-top: 1rem;
+}
+main {
+    text-align: center;
+    margin: auto;
+    max-width : 80%;
+    margin-top: 1rem;
+}
+.label-input {
+    display: block;
+    margin-right: o.8rem;
+    margin-top : 0.5rem;
+   
+}  
+input{
+    margin-bottom: 1rem;
+    border-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-width: 0.2rem;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    color: var(--secondary-color);
+}
+button {
+    background-color: var(--secondary-color);
+    padding:0.5rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius: 0.3rem;    
+}
+
+footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    padding:1rem;
+    margin-top: 17.5rem;
+
+}
+.footer-heading{
+    text-align:center;
+    color: var(--primary-color);
+}
+.footer-list{
+    display:inline;
+    list-style: none;
+    text-align: center;
+    margin-left:1rem;
+}
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+.footer ul{
+    padding-inline-start: 0px;
+}
